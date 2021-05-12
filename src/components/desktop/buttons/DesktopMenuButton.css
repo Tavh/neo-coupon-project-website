@@ -1,0 +1,19 @@
+.menu_button {
+    background-color: rgb(44, 44, 44);
+    color: white;
+    font-size: 16px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 1%;
+    padding-left: 1%;
+    border-width: 0;    
+    cursor: pointer;
+}
+
+.menu_button:hover {
+    background-color: rgb(60, 60, 60);
+}
+
+.menu_button:active {
+    background-color: rgb(30, 30, 30);
+}

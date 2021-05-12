@@ -1,11 +1,13 @@
-import PropTypes from 'prop-types'
 
+import PropTypes from 'prop-types'
+import DesktopMenuButton from './buttons/DesktopMenuButton'
 const DesktopHeader = ({ title }) => {
     return (
-        <div id="desktop_header_container">
-            <h1>{title}</h1>
+        <div id="desktop_header_wrapper">
+            <span>{title}</span>
+            <DesktopMenuButton />
         </div>
-    );
+    )
 }
 
 DesktopHeader.defaultProps = {
